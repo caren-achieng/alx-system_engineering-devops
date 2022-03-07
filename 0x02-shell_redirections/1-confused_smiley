@@ -1,2 +1,4 @@
 #!/bin/bash
-"(Oo)'
+echo "\"(Oo)'"
+
+
