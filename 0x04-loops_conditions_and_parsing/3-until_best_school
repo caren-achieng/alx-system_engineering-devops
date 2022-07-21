@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-#Creating a script that uses an until loop
-x=0
-until [ $x -gt 9 ]
-do
+# displays Best School 10 times
+
+COUNTER=0
+until [ "$COUNTER" -eq 10 ]; do
 	echo "Best School"
-	((x++))
+	let COUNTER=COUNTER+1
 done
